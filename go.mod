@@ -1,3 +1,3 @@
-module entrlcom.dev/go-unit
+module entrlcom.dev/unit
 
 go 1.22.1
