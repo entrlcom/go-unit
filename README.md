@@ -2,8 +2,15 @@
 
 ## Table of Content
 
+- [Authors](#authors)
 - [Examples](#examples)
 - [License](#license)
+
+## Authors
+
+| Name         | GitHub                                             |
+|--------------|----------------------------------------------------|
+| Klim Sidorov | [@entrlcom-klim](https://github.com/entrlcom-klim) |
 
 ## Examples
 
@@ -14,7 +21,7 @@ import (
 	"io"
 	"net/http"
 
-	"entrlcom.dev/unit"
+	"flida.dev/unit"
 )
 
 func main() {

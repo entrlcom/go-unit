@@ -1,3 +1,3 @@
-module entrlcom.dev/unit
+module flida.dev/unit
 
-go 1.22.1
+go 1.24

@@ -1,7 +1,7 @@
 package unit
 
 const (
-	B = 1 << (10 * iota) //nolint:gomnd // OK.
+	B = 1 << (10 * iota) //nolint:mnd // OK.
 	KiB
 	MiB
 	GiB
