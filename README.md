@@ -4,7 +4,6 @@
 
 - [Authors](#authors)
 - [Examples](#examples)
-- [License](#license)
 
 ## Authors
 
@@ -33,7 +32,3 @@ func main() {
 }
 
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
