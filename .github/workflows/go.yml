@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/go
         with:
-          BOT_GITHUB_PAT:  ${{ secrets.BOT_GITHUB_PAT }}
           GO_VERSION: ${{ vars.GO_VERSION }}
 
       - name: Run Test
@@ -39,7 +38,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/go
         with:
-          BOT_GITHUB_PAT: ${{ secrets.BOT_GITHUB_PAT }}
           GO_VERSION: ${{ vars.GO_VERSION }}
 
       - uses: golangci/golangci-lint-action@v7
@@ -53,7 +51,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/go
         with:
-          BOT_GITHUB_PAT: ${{ secrets.BOT_GITHUB_PAT }}
           GO_VERSION: ${{ vars.GO_VERSION }}
 
       - uses: golang/govulncheck-action@v1
